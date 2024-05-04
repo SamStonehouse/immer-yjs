@@ -169,7 +169,7 @@ export type Binder<S extends Snapshot> = {
     subscribe: (fn: ListenerFn<S>) => UnsubscribeFn
 }
 
-export type Options<S extends Snapshot> = {
+export type Options = {
     /**
      * Customize immer patch application.
      * Should apply patch to the target y.js data.
